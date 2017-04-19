@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>com_searchjse</name>
+	<author>Marko Sirše</author>
+	<creationDate>October 2015</creationDate>
+	<copyright>(C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@psd2html.si</authorEmail>
+	<authorUrl>www.psd2html.si</authorUrl>
+	<version>1.0.0</version>
+	<description></description>
+
+	<files folder="site">
+		<filename>searchjse.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<folder>helpers</folder>
+		<folder>models</folder>
+	</files>
+</extension>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_SEARCHJST_SEARCH_VIEW_DEFAULT_TITLE"></layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="params">
+		<fieldset name="request">
+<!-- 			<field
+				name="id"
+				type="category"
+				description="JGLOBAL_CHOOSE_CATEGORY_DESC"
+				extension="com_content"
+				label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
+				required="true"
+				multiple="true"
+			/> -->
+			<field
+				name="order"
+				type="text"
+				default=""
+				description="Vpiši id-je kategorij ločeno z vejico"
+				label="Category id"
+				size="20"
+			/>
+		</fieldset>
+	</fields>
+</metadata>
